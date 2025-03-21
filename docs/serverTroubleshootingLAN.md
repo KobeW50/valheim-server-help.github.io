@@ -65,4 +65,4 @@ If when trying to join the game, the external player gets a 'Disconnected' messa
 
 
 
-[the Discord]: <https://discord.gg/U7Ng93FER8>
+[the Discord]: <https://discord.com/invite/valheim>

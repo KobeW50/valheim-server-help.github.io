@@ -67,7 +67,7 @@ Now that your server is up and running, let's start adventuring with friends!
 _[LEARN HOW TO GET CONNECTED!](https://valheim-server-help.github.io/howToConnect/#how-to-connect-to-a-valheim-dedicated-server)_
 
 
-**NOTE:** If you're stuck, join the [Valheim Discord](https://discord.com/invite/U7Ng93FER8) and seek out the `#dediacted-server-help` channel!
+**NOTE:** If you're stuck, join the [Valheim Discord](https://discord.com/invite/valheim) and seek out the `#dedicated-server` channel!
 
 ---
 # Stopping your Valheim Server

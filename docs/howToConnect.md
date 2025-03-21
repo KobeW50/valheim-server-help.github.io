@@ -102,4 +102,4 @@ Replace `xxx.xxx.xxx.xxx` with your Server's IPv4 Address and `yyyy` with the `-
 ![desktop_shortcut](../assets/guideGeneral/shortcut_name.png)
 
 
-[the Discord]: <https://discord.gg/U7Ng93FER8>
+[the Discord]: <https://discord.com/invite/valheim>
