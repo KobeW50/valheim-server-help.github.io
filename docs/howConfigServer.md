@@ -7,8 +7,6 @@ nav_order: 1
 ##### *Follow whichever guide is applicable to you. This is based off OS only, not install method*.
 
 ---
-#### [Linux Guide](https://valheim-server-help.github.io/howConfigServer/#linux-server-configuration)
-
 #### **Server Parameters**
 `-name` = Server Listing Name. (Make it something unique like `"Awesome Nords"`)
 
@@ -20,7 +18,7 @@ nav_order: 1
 
 `-public` = Toggles visibility of server on Steam Server & Community Lists. (`public 1`->visible; `-public 0`->NOT visible)
 
-`-savedir` = Forces the server's world files & `admin`/`banned`/`binds`/`permmitted`/ lists to be saved in the specified location, ie. `-savedir "D:\Valheim\Valheim\Valheim_Server\"`, instead of the default (`%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds`).
+`-savedir` = Forces the server's world files & `admin`/`banned`/`binds`/`permmitted`/ lists to be saved in the specified location (ie: `-savedir "D:\Valheim\Valheim\Valheim_Server\"`), instead of the default location. (Windows default: `%USERPROFILE%\AppData\LocalLow\IronGate\Valheim\worlds`. Linux default: `~/.config/unity3d/IronGate/Valheim`).
 
 `-logFile` = Setting this parameter to a path will **_STOP ALL OUTPUT TO THE CONSOLE_**, and redirect it to a text file.
 Example: `-logFile "C:\Valheim\Valheim\Valheim_Server\logs\MyServerLog.txt"`
@@ -58,8 +56,21 @@ Accept the defaults and click ![WD_allow_access](../assets/configServers/wd_allo
 
 #### **[Please click here to continue.](https://valheim-server-help.github.io//howConfigServer/#congratulations)** 
 
-## Linux Server Configuration - *Coming-Soon*
+## Linux Server Configuration
+### NAVIGATE TO YOUR SERVER INSTALL LOCATION
+**Step 1a:** Create a copy of the `start_server.sh` file and give the copy a unique name, such as `start_my_server.sh`.
 
+**Step 1b:** Open `start_my_server.sh` in a text editor:
+![how_to_edit](../assets/configServers/edit_script_linux.png)
+
+**Step 1c:** This is where you edit the server parameters. Save the file after making changes. (Do **NOT** delete the quotes!)  
+![what_to_edit_for_server](../assets/configServers/what_to_edit_linux.png)
+
+**Step 2a:** Open the installation directory in a terminal. This is the directory with your script (ie: `start_my_server.sh`).
+![open_linux_terminal](../assets/configServers/open_terminal_linux.png)
+
+**Step 2b:** Run your script with `./<filename>`. (Example: `./start_my_server.sh`)
+![start_server](../assets/configServers/start_server_linux.png)
 
 ### Congratulations!
 You've installed and configured your very own Dedicated Valheim Server!  
